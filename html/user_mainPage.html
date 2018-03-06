@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>main page!</title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript" src="../js/transfer.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css" >
+</head>
+<body style="overflow-y:hidden">
+
+	<div id="stateChoose">
+		<ul>
+			<li><a href="#" onclick="stateFrameTransfer('user_mainPage_friend.html')" class="stateChoose">好友动态</a></li>
+			<li><a href="#" onclick="stateFrameTransfer('user_mainPage_myself.html')" class="stateChooses">我的动态</a></li>
+		</ul>
+	</div>
+	<div id="state">
+		<iframe src="user_mainPage_friend.html" frameborder="0" id="stateFrame"></iframe>
+	</div>
+	<!-- <button onclick="iframeTransfer('d')">dfasdf</button> -->
+
+</body>
+</html>

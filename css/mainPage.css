@@ -1,0 +1,89 @@
+html{
+	background: url("../picture/bg.png") repeat;
+}
+nav.header{
+	text-align: right；
+	position:absolute;
+	margin-top: 0px;
+	background-color: #ff0200;
+}
+
+nav.header a{
+	font-family:Cursive,Helvetica, Arial, sans-serif;
+	font-variant: small-caps;
+	font-size: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+
+li.header{
+	float: right;
+	margin-top:0px;
+	margin-right:20px;
+	border-radius:6px;
+	padding: 5px;
+
+	transition:background-color 1s;
+	-moz-transition:background-color 1s; /* Firefox 4 */
+	-webkit-transition:background-color 1s; /* Safari and Chrome */
+	-o-transition:background-color 1s; /* Opera */
+}
+
+a{
+	text-decoration: none;
+}
+a.header{
+
+	transition:color 1s;
+	-moz-transition:color 1s; /* Firefox 4 */
+	-webkit-transition:color 1s; /* Safari and Chrome */
+	-o-transition:color 1s; /* Opera */
+}
+
+li.header:hover{
+	background-color: #000000;
+}
+
+a.header:hover{
+	/*font-weight: 700;*/
+	color: #ffffff;
+}
+
+aside.user{
+	font-family:Cursive,Helvetica, Arial, sans-serif;
+	position: absolute;
+	left: 10%;
+	margin-top:5%;
+	width:15%;
+	height:65%;
+	background-color: #ffffff;
+	padding-top:10px;
+	text-align: center;
+	opacity: 0.7;
+}
+
+aside.user li{
+
+	margin-top: 20px;
+}
+
+div#mainInf{
+	position: absolute;
+	/*background-color: #f1f1f1;*/
+	left:30%;
+	margin-top: 5%;
+	width: 60%;
+	height:80%;
+/*	padding:2%;*/
+}
+
+article.hotHealth,article.hotActivity,article.hotSuggestion{
+	font-family:Cursive;
+	position:relative;
+	/*magin:2%,1%,2%,1%;*/
+	margin-bottom: 20px;
+	padding-left: 20px;
+	width:98%;
+	height:30%;
+	background-color: #ffffff;
+}

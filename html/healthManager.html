@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>main page!</title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript" src="../js/transfer.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css" >
+</head>
+<body>
+	<nav class="header">
+		<ul>
+			<li class="header"><a href="healthManager.html" class="header">健康中心</a></li>
+			<li class="header"><a href="suggestionManager.html" class="header">建议中心</a></li>
+			<li class="header"><a href="activityManager.html" class="header">活动中心</a></li>
+			<li class="header"><a href="userManager.html" class="header">用户中心</a></li>
+			<li class="header"><a href="main.html" class="header">主页</a></li>				
+			<!-- <li class="header"><a href="#" class="header">注销</a></li> -->
+		</ul>
+	</nav>
+	
+	<aside class="user">
+          <ul>
+          	  <li onclick="iframeTransfer('health_mainPage.html')" style="cursor:pointer">主页</li>
+	          <li onclick="iframeTransfer('health_sport.html')" style="cursor:pointer">运动状况</li>
+	          <li onclick="iframeTransfer('health_sleep.html')" style="cursor:pointer">睡眠状况</li>
+	          <li stylr="cursor:pointer;">身体状况</li>
+          </ul>
+		
+	</aside>
+<!-- 	<div id="mainInf">		 -->	
+		<iframe src="./health_mainPage.html" id="mainInf"></iframe>
+	<!-- </div> -->
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>main page!</title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript" src="../js/transfer.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css" >
+</head>
+<body>
+	<nav class="header">
+		<ul>
+			<li class="header"><a href="healthManager.html" class="header">健康中心</a></li>
+			<li class="header"><a href="suggestionManager.html" class="header">建议中心</a></li>
+			<li class="header"><a href="activityManager.html" class="header">活动中心</a></li>
+			<li class="header"><a href="userManager.html" class="header">用户中心</a></li>
+			<li class="header"><a href="main.html" class="header">主页</a></li>
+			<!-- <li class="header"><a href="#" class="header">注销</a></li> -->
+		</ul>
+	</nav>
+	
+	<aside class="activity">
+          <ul>
+          	  <li onclick="iframeTransfer('activity_hot.html')" style="cursor:pointer">热门活动</li>
+	          <li onclick="iframeTransfer('activity_friend.html')" style="cursor:pointer">好友活动</li>
+	          <li onclick="iframeTransfer('activity_myself.html')" style="cursor:pointer">我的活动</li>
+	          <ul>
+	          	<li>参与活动</li>
+	          	<li>退出活动</li>
+	          	<li>创建活动</li>
+	          	<li>删除活动</li>
+	          </ul>
+          </ul>
+		
+	</aside>
+<!-- 	<div id="mainInf">		 -->	
+		<iframe src="activity_hot.html" id="mainInf"></iframe>
+	<!-- </div> -->
+</body>
+</html>
